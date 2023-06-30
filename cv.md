@@ -25,6 +25,7 @@ I am interested in web development because this profession provides endless oppo
 * Git, GitHub
 * VS Code, PhpStorm
 * Figma
+* Jira
 
 ### Courses:
 * WEB-developer, Udemy (completed)
