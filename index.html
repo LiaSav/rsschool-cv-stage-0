@@ -5,10 +5,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-
+    <header class="header">
+        <nav class="container">
+            <ul class="header__wrapper">
+                <li><a class="header__link" href="#contact">Contact information</a></li>
+                <li><a class="header__link" href="#about">About Myself</a></li>
+                <li><a class="header__link" href="#skills">Skills</a></li>
+                <li><a class="header__link" href="#code">Code example</a></li>
+                <li><a class="header__link" href="#courses">Courses</a></li>
+                <li><a class="header__link" href="#works">My works</a></li>
+                <li><a class="header__link" href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="target">
+            <div class="target__avatar">
+                <img class="target__avatar-image" src="assets/img/avatar.jpg" alt="avatar">
+            </div>
+            <div class="target__text">
+                <h1 class="target__title">Nataliia Savchenko</h1>
+                <h2 class="target__subtitle">Junior Frontend Developer</h2>
+            </div>
+        </section>
+        <div class="divider"></div>
+        <div class="wrapper">
+            <section id="contact" class="section">
+                <h3 class="title">Contact information:</h3>
+                <ul>
+                    <li>Phone: <a class="link" href="tel:+380993281710">+38 099 328 17 10</a></li>
+                    <li>E-mail: <a class="link" href="mailto:liasav19@ukr.net">liasav19@ukr.net</a></li>
+                    <li><a class="link" href="https://t.me/LSM1990" target="_blank">Telegram</a></li>
+                    <li><a class="link" href="https://www.linkedin.com/in/nataliia-savchenko-7602071b8/"
+                            target="_blank">LinkedIn</a>
+                    </li>
+                </ul>
+            </section>
+            <section id="about" class="section">
+                <h3 class="title">About Myself:</h3>
+                <p>I started my web development career as a Junior Frontend Developer in a web studio with minimal
+                    skills
+                    after completing a WEB-developer course (Udemy).</p>
+                <p>I am interested in web development because this profession provides endless opportunities for
+                    professional growth, in addition, there are a huge amount of quality resources for self-education.
+                </p>
+            </section>
+            <section id="skills" class="section">
+                <h3 class="title">Skills:</h3>
+                <ul>
+                    <li>HTML5, CSS3</li>
+                    <li>SASS/SCSS</li>
+                    <li>Bootstrap 4/5</li>
+                    <li>JavaScript</li>
+                    <li>Pug, Blade</li>
+                    <li>Git, GitHub, Bitbucket</li>
+                    <li>VS Code, PhpStorm</li>
+                    <li>Figma</li>
+                    <li>Jira</li>
+                </ul>
+            </section>
+            <section id="code" class="section">
+                <h3 class="title">Code example:</h3>
+                <code>
+                    &lt;<span>p</span>&gt;Add the p tag as plain text&lt;<span>/p</span>&gt;
+                  </code>
+            </section>
+            <section id="courses" class="section">
+                <h3 class="title">Courses:</h3>
+                <ul>
+                    <li>WEB-developer, Udemy (completed)</li>
+                    <li>JavaScript/Front-end. Stage 0, RS Schools Course (in progress)</li>
+                </ul>
+            </section>
+            <section id="languages" class="section">
+                <h3 class="title">Languages:</h3>
+                <ul>
+                    <li>Ukrainian - Native</li>
+                    <li>Russian - Native</li>
+                    <li>English - Intermediate</li>
+                </ul>
+            </section>
+        </div>
+        <section id="works" class="works">
+            <h3 class="title">My works:</h3>
+            <div class="works__wrapper">
+                <a class="works__item" href="https://liasav.github.io/ozon-site/" target="_blank">
+                    <img class="works__item-img" src="assets/img/ozon.jpg" alt="ozon"></a>
+                <a class="works__item" href="https://liasav.github.io/pulsometr/" target="_blank">
+                    <img class="works__item-img" src="assets/img/pulsometr.jpg" alt="pulsometr"></a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__item">
+                    <a class="link" href="https://github.com/LiaSav" target="_blank">GitHub</a>
+                    <span>2023</span>
+                </div>
+                <a class="footer__item" href="https://rs.school/js/" target="_blank">
+                    <img src="assets/img/logo-rs-school.svg" alt="logo-rs-school">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
